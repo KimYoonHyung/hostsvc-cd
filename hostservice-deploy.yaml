@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: kongkomido/hostservice:1.0
+        image: kongkomido/hostservice:d3603f772e514b1a784adcc80a849951ba8d10e5
         resources:
           limits:
             memory: "128Mi"
